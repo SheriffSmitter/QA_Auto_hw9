@@ -17,6 +17,6 @@ def test_complete_todo():
     app.left_panel.type_city('Delhi')
     app.left_panel.press_submit()
     app.left_panel.should_text('Thanks for submitting the form')
-    app.left_panel.should_exact_text('Vadim Korolev', 'v@gmail.com', 'Other', '7915141114',
+    app.left_panel.should_exact_text('Vadim Korolev', 'v@gmail.com', 'Male', '7915141114',
                                      '27 December,1998', 'Physics','Sports, Reading',
                                      'img.jpg', 'Test, 65','NCR Delhi')
